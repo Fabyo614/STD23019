@@ -111,8 +111,24 @@ I think kwisatz wanted to say:
 Hey there, welcome to wechall!
 
  - kwisatz
-
-
 ## Flag
-
 Your flag is: "AndOfCourseIDoKnowChown" without the quotes.
+
+
+LEVEL5 :
+
+pour trouver la solution5:
+
+pouloulou@warchall:/home/level$ cd 05_privacy$/
+pouloulou@warchall:/home/level/05_privacy$ ls
+README.md
+pouloulou@warchall:/home/level/05_privacy$ cat README.md
+# WAR#5: Privacy
+
+Please protect your ~ from any other people than yourself.
+
+Then run ./checker
+
+( This does not work again yet. It would check and say the solution. )
+
+The 5th solution is "OKPRIVATE" without the quotes.
