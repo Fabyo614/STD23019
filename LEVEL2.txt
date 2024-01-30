@@ -1,0 +1,15 @@
+
+LEVEL2:
+
+pour trouver la solution2 :
+pouloulou@warchall:/home/level$ cd 02
+pouloulou@warchall:/home/level/02$ ls -a
+. .. .porb documents photos
+pouloulou@warchall:/home/level/02$ cd .porb
+pouloulou@warchall:/home/level/02/.porb$ ls -al
+total 12
+drwxr-xr-x 2 root level02 4096 Jan 11 2023 .
+drwxr-xr-x 5 root level02 4096 Jan 11 2023 ..
+-rw-r--r-- 1 root root      32 Jan 11 2023 .solution
+pouloulou@warchall:/home/level/02/.porb$ cat .solution
+The solution is HiddenIsConfig
