@@ -130,3 +130,5 @@ Then run ./checker
 ( This does not work again yet. It would check and say the solution. )
 
 The 5th solution is "OKPRIVATE" without the quotes.
+
+The solution0-5 : bitwarrior,patience ,HiddenIsConfig,RepeatingHistory ,AndOfCourseIDoKnowChown,OKPRIVATE
