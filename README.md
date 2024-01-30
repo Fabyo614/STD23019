@@ -84,6 +84,35 @@ cat .bash_history
 ls -asl
 pouloulou@warchall:/home/level/03$
 
+LEVEL4 :
+
+pour trouver la solution4 :
+pouloulou@warchall:/$ cd /home/user/pouloulou/level
+pouloulou@warchall:~/level$ ls
+04_kwisatz
+pouloulou@warchall:~/level$ cd 04_kwisatz/
+pouloulou@warchall:~/level/04_kwisatz$ ls
+README.txt  README2.md
+pouloulou@warchall:~/level/04_kwisatz$ cat README2.md
+-bash: cat: README2.md/: Permission denied
+pouloulou@warchall:~/level/04_kwisatz$ ls -l README2.md
+-rwx------ 1 pouloulou pouloulou 248 Jan 23 19:16 README2.md
+pouloulou@warchall:~/level/04_kwisatz$ chmod 700 README2.md
+pouloulou@warchall:~/level/04_kwisatz$ cat README2.md
+# Congratulations!
+
+Dear Challenger,
+
+WarChall got erased once,
+hence, the original message is lost.
+
+I think kwisatz wanted to say:
+
+Hey there, welcome to wechall!
+
+ - kwisatz
 
 
+## Flag
 
+Your flag is: "AndOfCourseIDoKnowChown" without the quotes.
